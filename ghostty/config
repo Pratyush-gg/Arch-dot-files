@@ -1,0 +1,23 @@
+theme = Dracula+
+font-size=12
+font-thicken=true
+background-opacity=0.70
+gtk-titlebar=false
+window-decoration=false
+cursor-color=00FF00
+cursor-style=block
+shell-integration-features = no-cursor
+mouse-hide-while-typing = true
+window-padding-x = 0,0
+window-padding-y = 0,0
+window-padding-balance=true
+#custom-shader = /home/pratyush/.config/ghostty/shaders/amber_crt.glsl
+#custom-shader = /home/pratyush/.config/ghostty/shaders/bloom.glsl
+#custom-shader = /home/pratyush/.config/ghostty/shaders/drunkard.glsl
+#keybindings
+keybind = ctrl+s=reload_config
+keybind = ctrl+n=new_tab
+keybind = ctrl+w=close_window
+keybind = ctrl+a=select_all
+keybind = ctrl+shift+down=new_split:down
+keybind = ctrl+shift+right=new_split:right
